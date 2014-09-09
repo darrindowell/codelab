@@ -1,0 +1,47 @@
+localhost:lab dowelld$ grunt serve
+Running "serve" task
+
+Running "clean:server" (clean) task
+
+Running "wiredep:app" (wiredep) task
+Warning: ENOENT, no such file or directory '/Users/dowelld/Projects/angular/lab/app/bower.json' Use --force to continue.
+
+Aborted due to warnings.
+
+
+Execution Time (2014-09-09 13:15:19 UTC)
+loading tasks    2ms  ▇ 2%
+serve            2ms  ▇ 2%
+clean:server     2ms  ▇ 2%
+wiredep:app    103ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 94%
+Total 109ms
+
+localhost:lab dowelld$ grunt serve --force
+Running "serve" task
+
+Running "clean:server" (clean) task
+
+Running "wiredep:app" (wiredep) task
+Warning: ENOENT, no such file or directory '/Users/dowelld/Projects/angular/lab/app/bower.json' Used --force, continuing.
+
+Running "concurrent:server" (concurrent) task
+    
+    Running "copy:styles" (copy) task
+    Copied 1 files
+    
+    Done, without errors.
+    
+    
+    Execution Time (2014-09-09 13:16:01 UTC)
+    loading tasks  2ms  ▇▇▇▇▇▇▇▇▇▇▇ 22%
+    copy:styles    7ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 78%
+    Total 9ms
+    
+Running "autoprefixer:dist" (autoprefixer) task
+File .tmp/styles/main.css created.
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
